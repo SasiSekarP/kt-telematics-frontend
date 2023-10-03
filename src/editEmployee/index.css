@@ -1,0 +1,54 @@
+.add-new-empolyee-card-parent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.add-new-empolyee-card{
+    display: flex;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: gray 5px 5px 10px;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+
+.add-new-empolyee-lable{
+    padding-bottom: 5px;
+}
+
+.add-new-empolyee-input{
+    width: 25rem;
+    margin-bottom: 1rem;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: solid black 1px;
+}
+
+.add-new-empolyee-input:focus{
+    outline: none;
+}
+
+.add-new-empolyee-button{
+    padding: 5px 10px;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-weight: 900;
+    border: 1px solid black;
+    width: 30%;
+    text-align: center;
+}
+
+.add-new-employee-button-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-new-empolyee-button:hover{
+    box-shadow: black 5px 5px 10px;
+}

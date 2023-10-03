@@ -1,0 +1,87 @@
+.asset-category-master-row-one{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+.asset-category-master-button{
+    min-width: 12rem;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    border: solid 1px black;
+    font-size: 13px;
+    text-align: center;
+}
+
+.asset-category-master-button:hover{
+    box-shadow: black 5px 5px 10px;
+}
+
+.asset-category-master-input{
+    width: 55rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.asset-category-master-row-two{
+    display: flex;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.asset-category-master-card-heading{
+    width: 29.5%;
+    font-weight: 900;
+}
+
+.asset-category-master-card-button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(0, 110, 110);
+    color: white;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.asset-category-master-card-button:hover{
+    box-shadow: black 2px 2px 5px;
+}
+
+.asset-category-master-card-button-options{
+    position: absolute;
+    color: black;
+    top: 25px;
+    border-radius: 5px;
+    /* overflow: hidden; */
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.asset-category-master-card-button-option{
+    width: 6rem;
+    background-color: mintcream;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.asset-category-master-card-button:hover .asset-category-master-card-button-options {
+    display: block;
+  }
+  
+  .asset-category-master-card-button-options {
+    display: none;
+  }
+
+  .asset-category-master-card-button-option:hover{
+    background-color: rgb(221, 219, 219);
+  }

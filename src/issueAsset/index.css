@@ -1,0 +1,51 @@
+.issue-asset-row-one{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+.issue-asset-input{
+    width: 55rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.issue-asset-select{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.issue-asset-row-two{
+    display: flex;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+    align-items: center;
+}
+
+.issue-asset-card-items{
+    width: 30%;
+}
+
+.issue-asset-card-heading{
+    width: 29.5%;
+    font-weight: 900;
+}
+
+.issue-asset-card-button{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.issue-asset-card-button:hover{
+    box-shadow: black 2px 2px 5px;
+}

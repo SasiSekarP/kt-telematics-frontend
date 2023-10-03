@@ -1,0 +1,39 @@
+.navbar-conatainer{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar-row-1{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px rgb(204, 202, 202) solid;
+}
+
+.navbar-row-2{
+    flex: 1;
+}
+
+.navlink-row,.nav-link{
+    color: gray;
+    display: flex;
+}
+
+.navlink-row:hover{
+    padding-left: 1rem;
+}
+
+.active-tab{
+    font-weight: 900;
+}
+
+.navlink-row{
+    padding-top: 2rem;
+}
+
+.navlink-icon{
+    padding-right: 10px;
+}

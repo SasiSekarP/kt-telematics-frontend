@@ -1,0 +1,37 @@
+.asset-history-row-one{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+.asset-history-input{
+    width: 55rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.asset-history-select{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.asset-history-row-two{
+    display: flex;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+    align-items: center;
+}
+
+.asset-history-card-items{
+    width: 30%;
+}
+
+.asset-history-card-heading{
+    width: 29.5%;
+    font-weight: 900;
+}
+
+
